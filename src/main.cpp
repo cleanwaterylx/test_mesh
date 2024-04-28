@@ -59,10 +59,10 @@ int main()
 
     glEnable(GL_DEPTH_TEST);
 
-    Shader ourShader("../shader/shader.vert", "../shader/shader.frag");
+    Shader ourShader("shader/shader.vert", "shader/shader.frag");
     // Shader lightShader("../shader/shader_light.vert", "../shader/shader_light.frag");
 
-    Model ourModel("../resource/nanosuit.obj");
+    Model ourModel("resource/nanosuit.obj");
 
     while (!glfwWindowShouldClose(window))
     {
